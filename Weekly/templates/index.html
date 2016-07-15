@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+
+	<title>开放周报</title>
+	
+	{% block style %}
+    <link rel="stylesheet/less" type="text/less" href="{{ url_for('static',filename='index/index.less') }}"/>
+    {% endblock %}
+	
+	<script type="text/javascript" src="{{ url_for('static',filename='modules/lessjs/less.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static',filename='modules/seajs/sea.js') }}"></script>
+    
+    <script type="text/javascript">
+    	seajs.config({
+    		alias:{
+    			'jquery':'{{ url_for("static",filename="modules/jquery/jquery.js") }}'
+    		}
+    	})
+    	seajs.use('{{ url_for("static",filename="index/panel.js") }}')
+    	seajs.use('{{ url_for("static",filename="index/size.js") }}')
+    	seajs.use('{{ url_for("static",filename="index/chart.js") }}')
+    {% block script %}
+    {% endblock %}
+    </script>
+    
+
+</head>
+
+
+
+<body>
+	<!--logo区-->
+	<div id="logo" class="logo">
+	    <img id="logopic" src="{{ url_for('static',filename='index/img/logo.jpg') }}" />
+		<span id="logotext">开放周报</span>
+	</div>
+
+	<!--导航区-->
+	<div id="panel" class="panel">
+		<ul class="level1">
+			<li id="congfig"><img src="{{ url_for('static',filename='index/img/ico4.png') }}"/>设置配置参数</li>
+			<li id="new_table"><img src="{{ url_for('static',filename='index/img/ico1.png') }}"/>报警量激增列表</li>
+				<ul id="new_table_menu" class="level2">
+					<li id="event_table">事件类型为主</li>
+					<li id="ip_table">IP为主</li>
+					<li id="business_table">业务为主</li>
+				</ul>
+			<li id="basic_table"><img src="{{ url_for('static',filename='index/img/ico1.png') }}"/>基本信息表</li>
+			<li id="chart"><img src="{{ url_for('static',filename='index/img/ico2.png') }}"/>展示图</li>
+				<ul id="chart_menu" class="level2">
+					<li id="chart_everyday">每日报警趋势图</li>
+					<li id="chart_time">时段报警趋势图</li>
+					<li id="top_event">事件类型前十+其他报警图</br>（默认：帕累拉图）</li>
+					<li id="top_first">一线处理前十报警事件</li>
+					<li id="top_second">二线处理前十报警事件</li>
+					<li id="top_ip">报警前十IP</li>
+					<li id="top_business">前十业务</li>
+					<li id="chart_core">核心业务相关趋势图</li>
+				</ul>
+			<li id="history_data"><img src="{{ url_for('static',filename='index/img/ico3.png') }}"/>历史数据</li>
+				<ul id="history_data_menu" class="level2">
+					<li id="history_data_data">初始数据</li>
+					<li id="history_data_result">计算结果</li>
+				</ul>
+		</ul>
+	</div>
+	
+	<!--内容区-->
+	<div id="content" class="content">
+	
+	{% block theContent %}
+		<span><img id="img" src="{{ url_for('static',filename='index/img/welcome.jpg') }}"></span>
+	{% endblock %}
+	
+	</div>
+
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e28f92c5-f7f7-46b7-9e65-221a51f51184" name="Default" comment="" />
+    <ignored path="zhoubaozidonghua.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/zhoubaozidonghua$weekly.coverage" NAME="weekly Coverage Results" MODIFIED="1460740721319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Weekly" />
+    <SUITE FILE_PATH="coverage/zhoubaozidonghua$B_Suspicious_point.coverage" NAME="B_Suspicious_point Coverage Results" MODIFIED="1460710523840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zhoubaozidonghua$B_top10.coverage" NAME="B_top10 Coverage Results" MODIFIED="1458877734931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zhoubaozidonghua$calculate_Y_B.coverage" NAME="calculate_Y_B Coverage Results" MODIFIED="1457277363999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zhoubaozidonghua$B_calculate_Y.coverage" NAME="B_calculate_Y Coverage Results" MODIFIED="1458137545463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zhoubaozidonghua$Suspicious_point.coverage" NAME="Suspicious_point Coverage Results" MODIFIED="1458671708527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zhoubaozidonghua$week.coverage" NAME="week Coverage Results" MODIFIED="1460708883518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="zhoubaozidonghua" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="B_calculate_Y.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/B_calculate_Y.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <folding>
+                <marker date="1457968363490" expanded="true" signature="503:537" placeholder="select perio..open_event_data..." />
+                <marker date="1457968363490" expanded="true" signature="765:801" placeholder="select busin..open_event_data..." />
+                <marker date="1457968363490" expanded="true" signature="1030:1129" placeholder="select ifnul..open_event_data..." />
+                <marker date="1457968363490" expanded="true" signature="1382:1532" placeholder="select ifnul..open_event_data..." />
+                <marker date="1457968363490" expanded="true" signature="1740:1822" placeholder="select ifnul..open_event_data..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="B_Suspicious_point.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/B_Suspicious_point.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+              <folding>
+                <marker date="1460711573450" expanded="true" signature="1790:2120" placeholder="select id,ev..open_event_data..." />
+                <marker date="1460711573450" expanded="true" signature="2015:2092" placeholder="select * fro..business_analysis..." />
+                <marker date="1460711573450" expanded="true" signature="2292:2452" placeholder="insert into ..." />
+                <marker date="1460711573450" expanded="true" signature="2499:2564" placeholder="select id fr..business_analysis..." />
+                <marker date="1460711573450" expanded="true" signature="2647:2721" placeholder="update busin..." />
+                <marker date="1460711573450" expanded="true" signature="2813:2895" placeholder="select perio..business_analysis..." />
+                <marker date="1460711573450" expanded="true" signature="3263:3348" placeholder="update busin..." />
+                <marker date="1460711573450" expanded="true" signature="3379:3453" placeholder="select id fr..business_analysis..." />
+                <marker date="1460711573450" expanded="true" signature="3514:3592" placeholder="update busin..." />
+                <marker date="1460711573450" expanded="true" signature="3644:3758" placeholder="select ui_ev..business_analysis..." />
+                <marker date="1460711573450" expanded="true" signature="3849:4012" placeholder="update busin..." />
+                <marker date="1460711573450" expanded="true" signature="4088:4169" placeholder="select id,ma..business_analysis..." />
+                <marker date="1460711573450" expanded="true" signature="4264:4325" placeholder="update busin..." />
+                <marker date="1460711573450" expanded="true" signature="4373:4513" placeholder="select busin..business_analysis..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="B_top10.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/B_top10.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="60" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="74" />
+              <folding>
+                <element signature="e#62#94#0" expanded="true" />
+                <marker date="1458877725566" expanded="true" signature="137:177" placeholder="delete from ..." />
+                <marker date="1458877725566" expanded="true" signature="137:198" placeholder="delete from ..." />
+                <marker date="1458877725566" expanded="true" signature="223:459" placeholder="select busin..open_event_data..." />
+                <marker date="1458877725566" expanded="true" signature="623:754" placeholder="select id,bu..open_event_data..." />
+                <marker date="1458877725566" expanded="true" signature="836:956" placeholder="insert into ..." />
+                <marker date="1458877725566" expanded="true" signature="981:1074" placeholder="update busin..." />
+                <marker date="1458877725566" expanded="true" signature="1114:1211" placeholder="update busin..." />
+                <marker date="1458877725566" expanded="true" signature="1257:1488" placeholder="select busin..open_event_data..." />
+                <marker date="1458877725566" expanded="true" signature="1657:1788" placeholder="select id,bu..open_event_data..." />
+                <marker date="1458877725566" expanded="true" signature="1870:1990" placeholder="insert into ..." />
+                <marker date="1458877725566" expanded="true" signature="2015:2108" placeholder="update busin..." />
+                <marker date="1458877725566" expanded="true" signature="2148:2245" placeholder="update busin..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="week.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../week.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="69" />
+              <folding>
+                <element signature="e#19#50#0" expanded="true" />
+                <marker date="1460708879966" expanded="true" signature="352:482" placeholder="select busin..business_analysis..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weekly.py" pinned="false" current-in-tab="true">
+        <entry file="file://D:/Weekly/weekly.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="11.937626">
+              <caret line="349" column="0" selection-start-line="349" selection-start-column="0" selection-end-line="349" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/calculate_Y.py" />
+        <option value="$PROJECT_DIR$/calculate_Y_B.py" />
+        <option value="$PROJECT_DIR$/historical_tracing.py" />
+        <option value="$PROJECT_DIR$/Suspicious_point.py" />
+        <option value="$PROJECT_DIR$/B_top10.py" />
+        <option value="$PROJECT_DIR$/../week.py" />
+        <option value="$PROJECT_DIR$/B_Suspicious_point.py" />
+        <option value="D:/Weekly/weekly.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Buildout</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="添加" />
+    <OptionsSetting value="true" id="移除" />
+    <OptionsSetting value="true" id="签出" />
+    <OptionsSetting value="true" id="更新" />
+    <OptionsSetting value="true" id="状态" />
+    <OptionsSetting value="true" id="编辑" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhoubaozidonghua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhoubaozidonghua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhoubaozidonghua_yewu_gai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Weekly/weekly.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.22918707" />
+    <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="fon&#9;null&#9;null&#10;show lin&#9;null&#9;null" />
+    <property name="FullScreen" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="zhoubaozidonghua" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="zhoubaozidonghua" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.weekly">
+    <configuration default="false" name="Suspicious_point" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zhoubaozidonghua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\微云同步盘\work\zhoubaozidonghua_yewu_gai\B_Suspicious_point.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="B_top10" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zhoubaozidonghua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/B_top10.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="B_Suspicious_point" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zhoubaozidonghua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/B_Suspicious_point.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="week" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zhoubaozidonghua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../week.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="weekly" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/Weekly" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zhoubaozidonghua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/Weekly/weekly.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zhoubaozidonghua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zhoubaozidonghua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zhoubaozidonghua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zhoubaozidonghua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zhoubaozidonghua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zhoubaozidonghua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zhoubaozidonghua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zhoubaozidonghua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zhoubaozidonghua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.Suspicious_point" />
+      <item index="1" class="java.lang.String" itemvalue="Python.B_top10" />
+      <item index="2" class="java.lang.String" itemvalue="Python.B_Suspicious_point" />
+      <item index="3" class="java.lang.String" itemvalue="Python.week" />
+      <item index="4" class="java.lang.String" itemvalue="Python.weekly" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.weekly" />
+        <item index="1" class="java.lang.String" itemvalue="Python.B_Suspicious_point" />
+        <item index="2" class="java.lang.String" itemvalue="Python.week" />
+        <item index="3" class="java.lang.String" itemvalue="Python.B_top10" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Suspicious_point" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e28f92c5-f7f7-46b7-9e65-221a51f51184" name="Default" comment="" />
+      <created>1449672653079</created>
+      <option name="number" value="Default" />
+      <updated>1449672653079</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14845759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.50253487" order="16" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.49746513" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26740947" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39972144" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3523677" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="19" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/B_calculate_Y.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <marker date="1457968363490" expanded="true" signature="503:537" placeholder="select perio..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="765:801" placeholder="select busin..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1030:1129" placeholder="select ifnul..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1382:1532" placeholder="select ifnul..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1740:1822" placeholder="select ifnul..open_event_data..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_Suspicious_point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+          <folding>
+            <marker date="1460711573450" expanded="true" signature="1790:2120" placeholder="select id,ev..open_event_data..." />
+            <marker date="1460711573450" expanded="true" signature="2015:2092" placeholder="select * fro..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="2292:2452" placeholder="insert into ..." />
+            <marker date="1460711573450" expanded="true" signature="2499:2564" placeholder="select id fr..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="2647:2721" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="2813:2895" placeholder="select perio..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3263:3348" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="3379:3453" placeholder="select id fr..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3514:3592" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="3644:3758" placeholder="select ui_ev..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3849:4012" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="4088:4169" placeholder="select id,ma..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="4264:4325" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="4373:4513" placeholder="select busin..business_analysis..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_top10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="74" />
+          <folding>
+            <element signature="e#62#94#0" expanded="true" />
+            <marker date="1458877725566" expanded="true" signature="137:177" placeholder="delete from ..." />
+            <marker date="1458877725566" expanded="true" signature="137:198" placeholder="delete from ..." />
+            <marker date="1458877725566" expanded="true" signature="223:459" placeholder="select busin..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="623:754" placeholder="select id,bu..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="836:956" placeholder="insert into ..." />
+            <marker date="1458877725566" expanded="true" signature="981:1074" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="1114:1211" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="1257:1488" placeholder="select busin..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="1657:1788" placeholder="select id,bu..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="1870:1990" placeholder="insert into ..." />
+            <marker date="1458877725566" expanded="true" signature="2015:2108" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="2148:2245" placeholder="update busin..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../week.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="69" />
+          <folding>
+            <element signature="e#19#50#0" expanded="true" />
+            <marker date="1460708879966" expanded="true" signature="352:482" placeholder="select busin..business_analysis..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Weekly/weekly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_calculate_Y.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1457968363490" expanded="true" signature="503:537" placeholder="select perio..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="765:801" placeholder="select busin..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1030:1129" placeholder="select ifnul..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1382:1532" placeholder="select ifnul..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1740:1822" placeholder="select ifnul..open_event_data..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_Suspicious_point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <marker date="1460711573450" expanded="true" signature="1790:2120" placeholder="select id,ev..open_event_data..." />
+            <marker date="1460711573450" expanded="true" signature="2015:2092" placeholder="select * fro..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="2292:2452" placeholder="insert into ..." />
+            <marker date="1460711573450" expanded="true" signature="2499:2564" placeholder="select id fr..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="2647:2721" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="2813:2895" placeholder="select perio..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3263:3348" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="3379:3453" placeholder="select id fr..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3514:3592" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="3644:3758" placeholder="select ui_ev..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3849:4012" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="4088:4169" placeholder="select id,ma..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="4264:4325" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="4373:4513" placeholder="select busin..business_analysis..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_top10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="74" />
+          <folding>
+            <element signature="e#62#94#0" expanded="true" />
+            <marker date="1458877725566" expanded="true" signature="137:177" placeholder="delete from ..." />
+            <marker date="1458877725566" expanded="true" signature="137:198" placeholder="delete from ..." />
+            <marker date="1458877725566" expanded="true" signature="223:459" placeholder="select busin..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="623:754" placeholder="select id,bu..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="836:956" placeholder="insert into ..." />
+            <marker date="1458877725566" expanded="true" signature="981:1074" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="1114:1211" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="1257:1488" placeholder="select busin..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="1657:1788" placeholder="select id,bu..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="1870:1990" placeholder="insert into ..." />
+            <marker date="1458877725566" expanded="true" signature="2015:2108" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="2148:2245" placeholder="update busin..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../week.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#50#0" expanded="true" />
+            <marker date="1460708879966" expanded="true" signature="352:482" placeholder="select busin..business_analysis..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_calculate_Y.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1457968363490" expanded="true" signature="503:537" placeholder="select perio..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="765:801" placeholder="select busin..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1030:1129" placeholder="select ifnul..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1382:1532" placeholder="select ifnul..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1740:1822" placeholder="select ifnul..open_event_data..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_Suspicious_point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="42" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
+          <folding>
+            <marker date="1460711573450" expanded="true" signature="1790:2120" placeholder="select id,ev..open_event_data..." />
+            <marker date="1460711573450" expanded="true" signature="2015:2092" placeholder="select * fro..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="2292:2452" placeholder="insert into ..." />
+            <marker date="1460711573450" expanded="true" signature="2499:2564" placeholder="select id fr..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="2647:2721" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="2813:2895" placeholder="select perio..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3263:3348" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="3379:3453" placeholder="select id fr..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3514:3592" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="3644:3758" placeholder="select ui_ev..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3849:4012" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="4088:4169" placeholder="select id,ma..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="4264:4325" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="4373:4513" placeholder="select busin..business_analysis..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_top10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#62#94#0" expanded="true" />
+            <marker date="1458877725566" expanded="true" signature="137:177" placeholder="delete from ..." />
+            <marker date="1458877725566" expanded="true" signature="137:198" placeholder="delete from ..." />
+            <marker date="1458877725566" expanded="true" signature="223:459" placeholder="select busin..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="623:754" placeholder="select id,bu..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="836:956" placeholder="insert into ..." />
+            <marker date="1458877725566" expanded="true" signature="981:1074" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="1114:1211" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="1257:1488" placeholder="select busin..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="1657:1788" placeholder="select id,bu..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="1870:1990" placeholder="insert into ..." />
+            <marker date="1458877725566" expanded="true" signature="2015:2108" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="2148:2245" placeholder="update busin..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_calculate_Y.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1457968363490" expanded="true" signature="503:537" placeholder="select perio..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="765:801" placeholder="select busin..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1030:1129" placeholder="select ifnul..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1382:1532" placeholder="select ifnul..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1740:1822" placeholder="select ifnul..open_event_data..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_Suspicious_point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="42" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
+          <folding>
+            <marker date="1460711573450" expanded="true" signature="1790:2120" placeholder="select id,ev..open_event_data..." />
+            <marker date="1460711573450" expanded="true" signature="2015:2092" placeholder="select * fro..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="2292:2452" placeholder="insert into ..." />
+            <marker date="1460711573450" expanded="true" signature="2499:2564" placeholder="select id fr..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="2647:2721" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="2813:2895" placeholder="select perio..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3263:3348" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="3379:3453" placeholder="select id fr..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3514:3592" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="3644:3758" placeholder="select ui_ev..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3849:4012" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="4088:4169" placeholder="select id,ma..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="4264:4325" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="4373:4513" placeholder="select busin..business_analysis..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_top10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#62#94#0" expanded="true" />
+            <marker date="1458877725566" expanded="true" signature="137:177" placeholder="delete from ..." />
+            <marker date="1458877725566" expanded="true" signature="137:198" placeholder="delete from ..." />
+            <marker date="1458877725566" expanded="true" signature="223:459" placeholder="select busin..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="623:754" placeholder="select id,bu..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="836:956" placeholder="insert into ..." />
+            <marker date="1458877725566" expanded="true" signature="981:1074" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="1114:1211" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="1257:1488" placeholder="select busin..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="1657:1788" placeholder="select id,bu..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="1870:1990" placeholder="insert into ..." />
+            <marker date="1458877725566" expanded="true" signature="2015:2108" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="2148:2245" placeholder="update busin..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_calculate_Y.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1457968363490" expanded="true" signature="503:537" placeholder="select perio..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="765:801" placeholder="select busin..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1030:1129" placeholder="select ifnul..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1382:1532" placeholder="select ifnul..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1740:1822" placeholder="select ifnul..open_event_data..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_Suspicious_point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="42" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
+          <folding>
+            <marker date="1460711573450" expanded="true" signature="1790:2120" placeholder="select id,ev..open_event_data..." />
+            <marker date="1460711573450" expanded="true" signature="2015:2092" placeholder="select * fro..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="2292:2452" placeholder="insert into ..." />
+            <marker date="1460711573450" expanded="true" signature="2499:2564" placeholder="select id fr..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="2647:2721" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="2813:2895" placeholder="select perio..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3263:3348" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="3379:3453" placeholder="select id fr..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3514:3592" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="3644:3758" placeholder="select ui_ev..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3849:4012" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="4088:4169" placeholder="select id,ma..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="4264:4325" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="4373:4513" placeholder="select busin..business_analysis..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_calculate_Y.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1457968363490" expanded="true" signature="503:537" placeholder="select perio..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="765:801" placeholder="select busin..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1030:1129" placeholder="select ifnul..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1382:1532" placeholder="select ifnul..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1740:1822" placeholder="select ifnul..open_event_data..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_Suspicious_point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="42" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
+          <folding>
+            <marker date="1460711573450" expanded="true" signature="1790:2120" placeholder="select id,ev..open_event_data..." />
+            <marker date="1460711573450" expanded="true" signature="2015:2092" placeholder="select * fro..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="2292:2452" placeholder="insert into ..." />
+            <marker date="1460711573450" expanded="true" signature="2499:2564" placeholder="select id fr..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="2647:2721" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="2813:2895" placeholder="select perio..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3263:3348" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="3379:3453" placeholder="select id fr..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3514:3592" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="3644:3758" placeholder="select ui_ev..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3849:4012" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="4088:4169" placeholder="select id,ma..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="4264:4325" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="4373:4513" placeholder="select busin..business_analysis..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_top10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#62#94#0" expanded="true" />
+            <marker date="1458877725566" expanded="true" signature="137:177" placeholder="delete from ..." />
+            <marker date="1458877725566" expanded="true" signature="137:198" placeholder="delete from ..." />
+            <marker date="1458877725566" expanded="true" signature="223:459" placeholder="select busin..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="623:754" placeholder="select id,bu..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="836:956" placeholder="insert into ..." />
+            <marker date="1458877725566" expanded="true" signature="981:1074" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="1114:1211" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="1257:1488" placeholder="select busin..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="1657:1788" placeholder="select id,bu..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="1870:1990" placeholder="insert into ..." />
+            <marker date="1458877725566" expanded="true" signature="2015:2108" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="2148:2245" placeholder="update busin..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Tool/Python27/Lib/site-packages/MySQLdb/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="317" column="0" selection-start-line="317" selection-start-column="0" selection-end-line="317" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_calculate_Y.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1457968363490" expanded="true" signature="503:537" placeholder="select perio..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="765:801" placeholder="select busin..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1030:1129" placeholder="select ifnul..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1382:1532" placeholder="select ifnul..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1740:1822" placeholder="select ifnul..open_event_data..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_Suspicious_point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="42" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
+          <folding>
+            <marker date="1460711573450" expanded="true" signature="1790:2120" placeholder="select id,ev..open_event_data..." />
+            <marker date="1460711573450" expanded="true" signature="2015:2092" placeholder="select * fro..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="2292:2452" placeholder="insert into ..." />
+            <marker date="1460711573450" expanded="true" signature="2499:2564" placeholder="select id fr..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="2647:2721" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="2813:2895" placeholder="select perio..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3263:3348" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="3379:3453" placeholder="select id fr..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3514:3592" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="3644:3758" placeholder="select ui_ev..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3849:4012" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="4088:4169" placeholder="select id,ma..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="4264:4325" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="4373:4513" placeholder="select busin..business_analysis..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_top10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#62#94#0" expanded="true" />
+            <marker date="1458877725566" expanded="true" signature="137:177" placeholder="delete from ..." />
+            <marker date="1458877725566" expanded="true" signature="137:198" placeholder="delete from ..." />
+            <marker date="1458877725566" expanded="true" signature="223:459" placeholder="select busin..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="623:754" placeholder="select id,bu..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="836:956" placeholder="insert into ..." />
+            <marker date="1458877725566" expanded="true" signature="981:1074" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="1114:1211" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="1257:1488" placeholder="select busin..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="1657:1788" placeholder="select id,bu..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="1870:1990" placeholder="insert into ..." />
+            <marker date="1458877725566" expanded="true" signature="2015:2108" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="2148:2245" placeholder="update busin..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Tool/Python27/Lib/site-packages/MySQLdb/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="317" column="0" selection-start-line="317" selection-start-column="0" selection-end-line="317" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_calculate_Y.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1457968363490" expanded="true" signature="503:537" placeholder="select perio..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="765:801" placeholder="select busin..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1030:1129" placeholder="select ifnul..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1382:1532" placeholder="select ifnul..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1740:1822" placeholder="select ifnul..open_event_data..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_Suspicious_point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="42" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
+          <folding>
+            <marker date="1460711573450" expanded="true" signature="1790:2120" placeholder="select id,ev..open_event_data..." />
+            <marker date="1460711573450" expanded="true" signature="2015:2092" placeholder="select * fro..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="2292:2452" placeholder="insert into ..." />
+            <marker date="1460711573450" expanded="true" signature="2499:2564" placeholder="select id fr..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="2647:2721" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="2813:2895" placeholder="select perio..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3263:3348" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="3379:3453" placeholder="select id fr..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3514:3592" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="3644:3758" placeholder="select ui_ev..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3849:4012" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="4088:4169" placeholder="select id,ma..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="4264:4325" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="4373:4513" placeholder="select busin..business_analysis..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_top10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#62#94#0" expanded="true" />
+            <marker date="1458877725566" expanded="true" signature="137:177" placeholder="delete from ..." />
+            <marker date="1458877725566" expanded="true" signature="137:198" placeholder="delete from ..." />
+            <marker date="1458877725566" expanded="true" signature="223:459" placeholder="select busin..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="623:754" placeholder="select id,bu..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="836:956" placeholder="insert into ..." />
+            <marker date="1458877725566" expanded="true" signature="981:1074" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="1114:1211" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="1257:1488" placeholder="select busin..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="1657:1788" placeholder="select id,bu..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="1870:1990" placeholder="insert into ..." />
+            <marker date="1458877725566" expanded="true" signature="2015:2108" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="2148:2245" placeholder="update busin..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/historical_tracing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/historical_tracing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/historical_tracing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/historical_tracing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/historical_tracing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/historical_tracing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/historical_tracing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict_event.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict_event.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict_event.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict_event.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Statistics_event.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/historical_tracing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55040324">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict_event.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14804064">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2357" column="0" selection-start-line="2357" selection-start-column="0" selection-end-line="2357" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Tool/Python27/Lib/site-packages/MySQLdb/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="317" column="0" selection-start-line="317" selection-start-column="0" selection-end-line="317" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Weekly/weekly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28169015">
+          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../week.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="69" />
+          <folding>
+            <element signature="e#19#50#0" expanded="true" />
+            <marker date="1460708879966" expanded="true" signature="352:482" placeholder="select busin..business_analysis..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_top10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="74" />
+          <folding>
+            <element signature="e#62#94#0" expanded="true" />
+            <marker date="1458877725566" expanded="true" signature="137:177" placeholder="delete from ..." />
+            <marker date="1458877725566" expanded="true" signature="137:198" placeholder="delete from ..." />
+            <marker date="1458877725566" expanded="true" signature="223:459" placeholder="select busin..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="623:754" placeholder="select id,bu..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="836:956" placeholder="insert into ..." />
+            <marker date="1458877725566" expanded="true" signature="981:1074" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="1114:1211" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="1257:1488" placeholder="select busin..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="1657:1788" placeholder="select id,bu..open_event_data..." />
+            <marker date="1458877725566" expanded="true" signature="1870:1990" placeholder="insert into ..." />
+            <marker date="1458877725566" expanded="true" signature="2015:2108" placeholder="update busin..." />
+            <marker date="1458877725566" expanded="true" signature="2148:2245" placeholder="update busin..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_calculate_Y.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <marker date="1457968363490" expanded="true" signature="503:537" placeholder="select perio..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="765:801" placeholder="select busin..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1030:1129" placeholder="select ifnul..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1382:1532" placeholder="select ifnul..open_event_data..." />
+            <marker date="1457968363490" expanded="true" signature="1740:1822" placeholder="select ifnul..open_event_data..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_Suspicious_point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+          <folding>
+            <marker date="1460711573450" expanded="true" signature="1790:2120" placeholder="select id,ev..open_event_data..." />
+            <marker date="1460711573450" expanded="true" signature="2015:2092" placeholder="select * fro..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="2292:2452" placeholder="insert into ..." />
+            <marker date="1460711573450" expanded="true" signature="2499:2564" placeholder="select id fr..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="2647:2721" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="2813:2895" placeholder="select perio..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3263:3348" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="3379:3453" placeholder="select id fr..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3514:3592" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="3644:3758" placeholder="select ui_ev..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="3849:4012" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="4088:4169" placeholder="select id,ma..business_analysis..." />
+            <marker date="1460711573450" expanded="true" signature="4264:4325" placeholder="update busin..." />
+            <marker date="1460711573450" expanded="true" signature="4373:4513" placeholder="select busin..business_analysis..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Weekly/weekly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="11.937626">
+          <caret line="349" column="0" selection-start-line="349" selection-start-column="0" selection-end-line="349" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

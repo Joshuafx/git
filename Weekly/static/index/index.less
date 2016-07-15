@@ -1,0 +1,130 @@
+.init() {
+/*初始化样式*/	
+	* {
+		margin: 0;
+		padding: 0;
+		font-size: 16px;
+		font-family: Tahoma,Helvetica,Arial,SimSun,sans-serif;
+		text-decoration: none;
+		list-style-type: none;
+	}
+}
+.init;
+
+
+
+
+.main() {
+/*背景颜色*/
+	body {
+		background:  #f8f8f8;
+	}
+}
+.main;
+
+
+
+
+.top(){
+/*logo样式*/
+	.logo {
+		width:100%;
+		float: left;
+		background: #000;
+		background: rgba(0, 0, 0, 0.8);
+		img {
+			width: 93px;
+			height: 55px;
+			margin: 8px 0px 8px 8px;
+			vertical-align: -16px;
+		}
+		span {
+			font: bold 3em KaiTi,SimSun,sans-serif;
+			color: #FFF;
+		}
+	}
+}
+.top;
+
+
+
+
+.left(){
+/*导航样式*/
+	.panel {
+		float: left;
+		width: 15em;
+		background: white;
+		border-right:solid #666 thin;
+		border-radius: 5px;
+		box-shadow: 0 5px 5px;
+		overflow: auto;
+		.level1 {
+			li {
+				font: bold 1.25em SimSun,sans-serif;
+				padding-top: 1em;
+				padding-bottom: 1em;
+				padding-left: 0.5em;
+				cursor: pointer;
+				&:hover {
+					background: #00BFFF;
+					color: white;
+					border: solid thin #808080;
+				}
+				&:active {
+					background: #1E90FF;
+				}
+				img {
+					vertical-align: -0.2em;
+					height: 1.5em;
+					margin-right: 0.25em;
+				}
+ 			}
+			.level2 {
+				display: none;
+				li {
+					padding-top: 0.5em;
+				    padding-bottom: 0.5em;
+				    padding-left: 2.5em;
+					font: 1em SimSun,sans-serif;
+					cursor: pointer;
+					&:hover {
+						background: #00BFFF;
+						color: white;
+						text-decoration: underline;
+					}
+					&:active {
+						background: #1E90FF;
+					}
+				}	
+			}
+		}
+	}
+}
+.left;
+
+
+
+
+/*主页图片*/
+.index() {
+	.content {
+		float: left;
+		display: table;
+		span {
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+		img {
+		width: 85%;
+		height: 85%;
+		border-radius: 5px;
+		}
+	}
+}
+.index;
+
+
+
+

@@ -1,0 +1,157 @@
+/*继承主页样式*/
+@import (reference) "../index/index.less";
+.init;
+.main;
+.top;
+.left;
+
+
+
+
+/*内容区样式*/
+/*定义表格统一样式，以便其他文件调用此样式*/
+.table() {
+		float: left;
+		overflow: auto;
+	
+		
+		/*标题样式*/
+		h1 {
+			margin-top:1%;
+			margin-left:1%;
+			font: italic 2em KaiTi,Tahoma,Helvetica,Arial,SimSun,sans-serif;
+		}
+
+
+	   	/*定义按钮样式函数以便后面调用*/
+		.button_style() {
+			background: #44cef6;
+			color: white;
+			font:bold 1em SimSun,sans-serif;
+			border:outset thin #44cef6;
+			border-radius: 3.5px;
+			text-align: center;
+			cursor: pointer;
+			padding: 0.5em 1em;
+			&:hover {
+				background: #00BFFF;
+				border:outset thin #00BFFF;
+			}
+			&:active {
+				background: #1E90FF;
+				border:inset thin #1E90FF;
+			}
+		}
+
+
+		/*表格区样式*/
+		form {
+			margin-top: 2%;
+			table {
+				border-collapse: collapse;
+				text-align: center;
+				.top-left {
+					border-top-left-radius:8px;
+					padding-left:0.5em;
+					padding-right:0.5em;
+				}
+				.top-right {
+					border-top-right-radius:8px;
+				}
+				th {
+					background: rgb(102, 205, 255);
+					color: white;
+					padding: 0.8em 0em;
+					border: white solid 1px;
+					border-style: hidden;
+					cursor: pointer;
+	       		}
+				td {
+					background: #e3f9fd;	
+					border: white solid 1px;
+					img {
+						height: 1.2em;
+						vertical-align: bottom;
+					}	
+					input,select,textarea {
+						height: 1.2em;
+						border: none;
+						background: #e3f9fd;
+						text-align: center;
+			 	    }
+		 	   }
+	 	    }	
+	   
+
+	   		/*翻页区样式*/
+	  		 .page {
+	   	  		text-align: center;
+	   			input[type=text] {
+	   				width:2em;
+	   				background:  #f8f8f8;
+	   				border: none;
+	   				text-align: center;
+	   			}
+	   			input[type="button"] {
+					.button_style;
+					margin-top: 0.5em;
+				}
+	  	 	}
+
+
+	   		/*操作区样式*/
+			.button {
+				input[type="button"],input[type="submit"] {
+				.button_style;
+				margin-top: 0.5em;
+				}
+			}
+		}
+
+		
+		/*返回按钮样式*/
+		#return {
+			.button_style;
+			margin-top: 0.5em;	
+		}
+
+
+		/*参数区样式*/
+		.configs {
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 1%;
+			border-spacing: 1em 0.3em;
+			background: #e3f9fd;
+			caption {
+				font:1.5em KaiTi,sans-serif;
+				background: #e3f9fd;
+			}
+			th {
+				font-size: 1em;
+				text-align: left;
+			}
+			td {
+				font-size: 0.9em;
+				text-align: center;
+			}
+		}
+}
+
+
+/*调用表格统一样式*/
+.table_data() {
+	.content {
+		.table;
+		form {
+			margin-left: auto;
+			margin-right: auto;
+			width: 78em;
+		}
+	}
+}
+.table_data;
+
+
+
+		

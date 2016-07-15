@@ -1,0 +1,102 @@
+{% extends 'index.html' %}
+
+{% block style %}
+<link rel="stylesheet/less" type="text/less" href="{{ url_for('static',filename='basic_table/basic_table.less') }}"/>
+{% endblock %}
+
+
+{% block script %}
+seajs.use('{{ url_for('static',filename='basic_table/button.js') }}')
+{% endblock %}
+
+{% block theContent %}
+	{% if basic_data[0] or basic_data[1] or basic_data[2] or basic_data[3] or basic_data[4] or basic_data[5] or basic_data[6] or basic_data[7] %}
+
+	<h1>基本信息表</h1/>
+	
+	<form id="basic" method="post">
+		<table id="basic_data_table">
+			<thead>
+			<tr>
+				<th  id="both" class="top-left">选择</th>
+				<th colspan="2"  class="top-right">每周事件统计基本信息</th>
+			</tr>
+			</thead>
+			<tbody>
+			{% if basic_data[0] %}
+			<tr>
+				<td><input id="delete0" type="checkbox" /></td>
+				<td style="width:20em;">总共发生报警次数</td>
+				<td><input id="total" name="total" type="text" value="{{basic_data[0]}}"/></td>
+			</tr>
+			{% endif %}
+			
+			{% if basic_data[1] %}
+			<tr>
+				<td><input id="delete1" type="checkbox" /></td>	
+				<td style="width:20em;">平均一天处理事件</td>
+				<td><input id="everyday" name="everyday" type="text" value="{{basic_data[1]}}" /></td>
+			</tr>
+			{% endif %}
+			
+			{% if basic_data[2] %}
+			<tr>
+				<td><input id="delete2" type="checkbox" /></td>
+				<td style="width:20em;">白班平均处理事件</td>
+				<td><input id="day" name="day" type="text" value="{{basic_data[2]}}" /></td>
+			</tr>
+			{% endif %}
+			
+			{% if basic_data[3] %}
+			<tr>
+				<td><input id="delete3" type="checkbox" /></td>	
+				<td style="width:20em;"> 夜班平均处理事件</td>
+				<td><input id="night" name="night" type="text" value="{{basic_data[3]}}" /></td>
+			</tr>
+			{% endif %}
+			
+			{% if basic_data[4] %}
+			<tr>
+				<td><input id="delete4" type="checkbox" /></td>	
+				<td style="width:20em;">一线处理率</td>
+				<td><input id="first" name="first" type="text" value="{{basic_data[4]}}" /></td>
+			</tr>
+			{% endif %}
+			
+			{% if basic_data[5] %}
+			<tr>
+				<td><input id="delete5" type="checkbox" /></td>	
+				<td style="width:20em;">二线处理率</td>
+				<td><input id="second" name="second" type="text" value="{{basic_data[5]}}" /></td>
+			</tr>
+			{% endif %}
+			
+			{% if basic_data[6] %}
+			<tr>
+				<td><input id="delete6" type="checkbox" /></td>	
+				<td style="width:20em;">上周报警量</td>
+				<td><input id="last" name="last" type="text" value="{{basic_data[6]}}" /></td>
+			</tr>
+			{% endif %}
+			
+			{% if basic_data[7] %}
+			<tr>
+				<td><input id="delete7" type="checkbox" /></td>	
+				<td style="width:20em;">与上周报警比值</td>
+				<td><input id="compare" name="compare" type="text" value="{{basic_data[7]}}" /></td>
+			</tr>
+			{% endif %}
+			</tbody>
+		</table>
+
+		<!--操作按钮-->
+		<div class="button">
+			<input id="delete" type="button" value="删除"/>
+			<input id="save" type="button" value="保存"/>
+		</div>
+
+	</form>
+	{% else %}
+	<h1>没有基本信息！</h1/>
+	{% endif %}
+{% endblock %}

@@ -1,0 +1,122 @@
+{% extends 'index.html' %}
+
+
+{% block style %}
+	<link rel="stylesheet/less" type="text/less" href="{{ url_for('static',filename='history/history.less') }}"/>
+{% endblock %}
+
+{% block script %}
+	seajs.use('{{ url_for('static',filename='history/page') }}',function(page){
+		page.page("event");
+		page.page("ip");
+		page.page("business");
+	})
+
+	seajs.use('{{ url_for('static',filename='history/button') }}',function(button){
+		button.button('data');
+	})
+{% endblock %}
+
+{% block theContent %}
+	<h1>{% block title %}原始数据{% endblock %}</h1>
+
+	
+
+	<form id="all_history" method="post">
+		
+
+		<div class="div">
+			<table id="event_history_table">
+				<thead>
+					<tr>
+						<th>以事件为主</th>
+					</tr>
+				</thead>
+				<tbody>
+				{% if history_data[0] %}
+					{% for data in history_data[0] %}
+					<tr>
+						<td><input id="delete_event{{loop.index0}}" type="checkbox" /><input id="Event{{loop.index0}}" type="text" value="{{data}}" readonly/></td>
+					</tr>
+					{% endfor %}
+				{% else %}
+					<tr><td>没有数据！</td></tr>
+				{% endif %}
+				</tbody>
+			</table>
+			<div class="page">
+				<input id="rows_event" name="rows_event" type="text" style="display: none;"/>
+				<input id="prev_page_event" type="button" value="上一页"/>
+				<input id="now_page_event" type="text" readonly/>/<input id="all_page_event" type="text" readonly/>共<input id="all_row_event" type="text" readonly/>条
+				<input id="next_page_event" type="button" value="下一页"/>
+			</div>
+		</div>
+
+		
+
+		<div class="div">
+			<table id="ip_history_table">
+				<thead>
+					<tr>
+						<th>以IP为主</th>
+					</tr>
+				</thead>
+				<tbody>
+				{% if history_data[1] %}
+					{% for data in history_data[1] %}
+					<tr>
+						<td><input id="delete_ip{{loop.index0}}" type="checkbox" /><input id="Ip{{loop.index0}}"  type="text" value="{{data}}" readonly/></td>
+					</tr>
+					{% endfor %}
+				{% else %}
+					<tr><td>没有数据！</td></tr>
+				{% endif %}
+				</tbody>
+			</table>
+			<div class="page">
+				<input id="rows_ip" name="rows_ip" type="text" style="display: none;"/>
+				<input id="prev_page_ip" type="button" value="上一页"/>
+				<input id="now_page_ip" type="text" readonly/>/<input id="all_page_ip" type="text" readonly/>共<input id="all_row_ip" type="text" readonly/>条
+				<input id="next_page_ip" type="button" value="下一页"/>
+			</div>
+		</div>
+
+
+
+		<div class="div">
+			<table id="business_history_table">
+				<thead>
+					<tr>
+						<th>以业务为主</th>
+					</tr>
+				</thead>
+				<tbody>
+				{% if history_data[2] %}
+					{% for data in history_data[2] %}
+					<tr>
+						<td><input id="delete_business{{loop.index0}}" type="checkbox" /><input id="Business{{loop.index0}}"  type="text" value="{{data}}" readonly/></td>
+					</tr>
+					{% endfor %}
+				{% else %}
+					<tr><td>没有数据！</td></tr>
+				{% endif %}
+				</tbody>
+			</table>
+			<div class="page">
+				<input id="rows_business" name="rows_business" type="text" style="display: none;"/>
+				<input id="prev_page_business" type="button" value="上一页"/>
+				<input id="now_page_business" type="text" readonly/>/<input id="all_page_business" type="text" readonly/>共<input id="all_row_business" type="text" readonly/>条
+				<input id="next_page_business" type="button" value="下一页"/>
+			</div>
+		</div>
+
+		
+		
+		<input id="delete" type="button" value="删除"/>
+
+	
+	</form>
+
+
+
+{% endblock %}

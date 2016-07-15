@@ -1,0 +1,129 @@
+{% extends 'index.html' %}
+
+{% block style %}
+<link rel="stylesheet/less" type="text/less" href="{{ url_for('static',filename='config/config.less') }}"/>
+{% endblock %}
+
+{% block script %}
+seajs.use('{{ url_for("static",filename="config/datetime.js") }}')
+seajs.use('{{ url_for("static",filename="config/button.js") }}')
+{% endblock %}
+
+
+
+{% block theContent %}
+<!--大标题-->
+<h1>配置参数</h1>
+
+
+<form action="/getConfig" method="post">
+	<table class="param">
+		<!--配置参数-->
+		<caption>请输入配置参数：</caption>
+		<tr>
+			<td>开始日期：<input id="startime" name="startime" type="text" {% if config[0] is not none %} value="{{config[0]}}" {% endif %}/></td>
+			<td>结束日期：<input id="endtime" name="endtime" type="text" {% if config[1] is not none %} value="{{config[1]}}" {% endif %}/></td>
+		</tr>
+		<tr>
+			<td>与前几期统计进行比较：<input name="compare" type="text" {% if config[2] is not none %} value="{{config[2]}}" {% endif %}/></td>
+			<td>置信水平：<input name="confidence" type="text" {% if config[3] is not none %} value="{{config[3]}}" {% endif %}/></td>
+		</tr>
+		<tr>
+			<td>可疑点系数(大于1)：<input name="above" type="text" {% if config[4] is not none %} value="{{config[4]}}" {% endif %}/></td>
+			<td>可疑点系数(小于1)：<input name="below" type="text" {% if config[5] is not none %} value="{{config[5]}}" {% endif %}/></td>
+		</tr>
+	</table>
+	
+
+	
+	<!--剔除参数-->
+	<div id="filter" class="filter">
+		<input id="show_filter" type="button" value="剔除"/>
+		
+
+		{% if filttime1 %}
+			<div style="display:block;" >
+				<p>时间&nbsp<img id="add_time" alt="点我添加" title="添加" src="{{ url_for('static',filename='config/img/plus.png') }}"/></p>
+				<hr/>
+				<ol id="time_list">
+			
+					{% for data in filttime1 %}
+						<li>从&nbsp<input type='text' id='startime{{loop.index}}' name='startime{{loop.index}}' style='width:8em;' value='{{data}}'/>
+							&nbsp到&nbsp
+							<input type='text' id='endtime{{loop.index}}' name='endtime{{loop.index}}' style='width:8em;' value='{{filttime2[loop.index0]}}'/>
+							<img id='minus' alt='点我删除' title='删除' src='../static/config/img/minus.png'>
+						</li>
+					{% endfor %}
+				</ol>
+			</div>
+		{% else %}
+			<div >
+				<p>时间&nbsp<img id="add_time" alt="点我添加" title="添加" src="{{ url_for('static',filename='config/img/plus.png') }}"/></p>
+				<hr/>
+				<ol id="time_list">
+				</ol>
+			</div>
+		{% endif %}
+
+		
+		
+		{% if filtevent %}
+			<div style="display:block;">
+				<p>事件&nbsp<img id="add_event" alt="点我添加" title="添加" src="{{ url_for('static',filename='config/img/plus.png') }}"/></p>
+				<hr/>
+				<ol id="event_list">
+					{% for data in filtevent %}
+						<li>
+						<input type='text' id='event{{loop.index}}' name='event{{loop.index}}' style='width:20em;' value='{{data}}'/>
+						<img id='minus' alt='点我删除' title='删除' src='../static/config/img/minus.png'>
+						</li>
+					{% endfor %}
+				</ol>
+			</div>
+		{% else %}
+			<div>
+				<p>事件&nbsp<img id="add_event" alt="点我添加" title="添加" src="{{ url_for('static',filename='config/img/plus.png') }}"/></p>
+				<hr/>
+				<ol id="event_list">
+				</ol>
+			</div>
+		{% endif %}
+
+
+		
+		{% if filtip %}
+			<div style="display:block;">
+				<p>IP&nbsp<img id="add_ip" alt="点我添加" title="添加" src="{{ url_for('static',filename='config/img/plus.png') }}"/></p>
+				<hr/>
+				<ol id="ip_list">
+					{% for data in filtip %}
+						<li>
+						<input type='text' id='ip{{loop.index}}' name='ip{{loop.index}}' style='width:8em;' value='{{data}}'/>
+						<img id='minus' alt='点我删除' title='删除' src='../static/config/img/minus.png'>
+						</li>
+					{% endfor %}
+				</ol>
+			</div>
+		{% else %}
+			<div>
+				<p>IP&nbsp<img id="add_ip" alt="点我添加" title="添加" src="{{ url_for('static',filename='config/img/plus.png') }}"/></p>
+				<hr/>
+				<ol id="ip_list">
+				</ol>
+			</div>
+		{% endif %}
+	
+	</div>
+	
+
+	<!--按钮-->
+	<div class="button">
+		<input type="submit" value="保存" />
+		<input type="reset" value="重置" />
+	</div>
+</form>
+
+{% endblock %}
+
+
+

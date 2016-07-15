@@ -1,0 +1,133 @@
+/*继承主页样式*/
+@import (reference) "../index/index.less";
+.init;
+.main;
+.top;
+.left;
+
+
+/*datetimepicker*/
+@import "../modules/datetimepicker/css/bootstrap.min.css";
+@import "../modules/datetimepicker/css/bootstrap-datetimepicker.css";
+
+
+/*内容区样式*/
+.content {
+	float: left;
+	overflow: auto;
+	h1 {
+		margin-top:1%;
+		margin-left:1%;
+		font: italic 2em KaiTi,Tahoma,Helvetica,Arial,SimSun,sans-serif;
+	}
+	
+	
+
+	/*配置参数*/
+	.param {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top:3.5em;
+		width: 55em;
+
+		caption {
+			font: bold 1.2em SimSun,sans-serif;
+			text-align: left;
+		}
+		td {
+			width: 25em;
+			padding-top: 1em;
+			padding-left: 4em;
+			input {
+				width: 8.5em;
+				float: right;
+				text-align: center;
+				border:groove thin #44cef6;		
+			}
+		}
+
+	}
+
+	
+
+	/*剔除参数*/
+	.filter {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 1em;
+		width: 55em;
+		div {
+			display: none;
+		}
+
+		p {
+			margin-top: 1.5em;
+			font-weight: bold;
+			img {
+				height: 1.2em;
+				vertical-align: -0.25em;
+				cursor: pointer;
+			}
+		}
+		ol {
+			margin-top: 0.5em;
+
+			li {
+				list-style: inside decimal;
+				margin-left: 2em;
+				margin-top: 0.5em;
+				img {
+					vertical-align: -0.5em;
+					cursor: pointer;
+				}
+			}
+		}
+		input{
+			border:groove thin #44cef6;
+			text-align: center;
+		}
+
+	}
+
+	
+
+	/*按钮*/
+	.button {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2em;
+		width: 15em;
+			input {
+				margin-left: 2em;
+			}
+	}
+
+	
+	
+
+
+	input[type="button"],input[type="submit"],input[type="reset"] {
+		background: #44cef6;
+		color: white;
+		font:bold 1em SimSun,sans-serif;
+		border:outset thin #44cef6;
+		border-radius: 3.5px;
+		width: 5em;
+		height: 2em;
+		text-align: center;
+		cursor: pointer;
+		&:hover {
+			background: #00BFFF;
+			border:outset thin #00BFFF;
+		}
+		&:active {
+			background: #1E90FF;
+			border:inset thin #1E90FF;
+		}
+	}
+
+
+
+}
+
+

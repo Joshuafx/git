@@ -1,0 +1,19 @@
+{% extends 'history_data.html' %}
+
+
+{% block script %}
+	seajs.use('{{ url_for('static',filename='history/page') }}',function(page){
+		page.page("event");
+		page.page("ip");
+		page.page("business");
+	})
+
+	seajs.use('{{ url_for('static',filename='history/button') }}',function(button){
+		button.button("result");
+	})
+{% endblock %}
+
+
+{% block title %}
+	计算结果
+{% endblock %}

@@ -1,0 +1,157 @@
+{% extends 'index.html' %}
+
+{% block style %}
+<link rel="stylesheet/less" type="text/less" href="{{ url_for('static',filename='table_data/table_data.less') }}"/>
+{% endblock %}
+
+{% block script %}
+
+seajs.use('{{ url_for('static',filename='table_data/button.js') }}',function(button){
+	button.button('business',1)
+})
+
+seajs.use('{{ url_for('static',filename='modules/page/page') }}',function(page){
+	page.page("business_data_table");
+})
+
+{% endblock %}
+
+{% block theContent %}
+
+{% if business_data %}
+<!--大标题-->
+<h1>以业务为主的报警量激增列表</h1>
+
+{% if config_data %}
+	<table class="configs">
+		<caption>配置参数</caption>
+		<tr>
+			<th>时间范围:</th>
+			<td>从{{config_data[0]}}到{{config_data[1]}}</td>
+			<th>与前几期比较:</th>
+			<td>{{config_data[2]}}</td>
+			<th>置信水平:</th>
+			<td>{{config_data[3]}}</td>
+			<th>可疑点系数(大于1):</th>
+			<td>{{config_data[4]}}</td>
+			<th>可疑点系数(小于1):</th>
+			<td>{{config_data[5]}}</td>
+		</tr>
+	{% if time1 %}
+		{% for data in time1%}
+		<tr>
+			<th>剔除时间段 {{loop.index}}:</th>
+			<td>从{{data}}到{{time2[loop.index0]}}</td>
+		</tr>
+		{% endfor %}
+	{% endif %}
+	{% if events %}
+		{% for data in events%}
+		<tr>
+			<th>剔除事件 {{loop.index}}:</th>
+			<td>{{data}}</td>
+		</tr>
+		{% endfor %}
+	{% endif %}
+	{% if ips %}
+		{% for data in ips%}
+		<tr>
+			<th>剔除IP {{loop.index}}:</th>
+			<td>{{data}}</td>
+		</tr>
+		{% endfor %}
+	{% endif %}
+	</table>
+{% endif %}
+
+<!--列表内容-->
+<form id="business_data" method="post">
+	
+	<table id="business_data_table">
+
+
+		<!--表头-->
+		<thead>
+			<tr>
+				<th id="both" class="top-left">选泽</th>
+				<th>主要业务</th>
+				<th>频繁报警事件</th>
+				<th>机器名关键词</th>
+				<th>频繁报警IP</th>
+				<th>报警日期</th>
+				<th>服务级别</th>
+				<th>前几期均值</th>
+				<th>当期报警值</th>
+				<th class="top-right">说明</th>
+				<th style="display:none;">主键</th>
+			</tr>
+		</thead>
+
+
+		<!--根据传来的数据生成表内容-->
+		<tbody>
+  			{% for data in business_data %}
+    		<tr>
+    			<td><input id="delete{{ loop.index0 }}" type="checkbox"/></td>
+    			<td><input id="business{{ loop.index0 }}" name="business{{ loop.index0 }}" type="text" value="{{data[0]}}" style="width:8.5em;"/><img id="detail{{ loop.index0 }}" src="{{ url_for('static',filename='table_data/img/info.png') }}" "详细" title="详细信息"></td>
+    			<td><input id="event{{ loop.index0 }}" name="event{{ loop.index0 }}" type="text" value="{{data[1]}}" style="width:12em;"/></td>
+    			<td><input id="machine{{ loop.index0 }}" name="machine{{ loop.index0 }}" type="text" value="{{data[2]}}" style="width:10em;"/></td>
+    			<td><input id="ip{{ loop.index0 }}" name="ip{{ loop.index0 }}" type="text" value="{{data[3]}}" style="width:8em;"/></td>
+    			<td><input id="date{{ loop.index0 }}" name="date{{ loop.index0 }}" type="text" value="{{data[4]}}" style="width:8.5em;"/></td>
+    			<td><input id="level{{ loop.index0 }}" name="level{{ loop.index0 }}" type="text" value="{{data[5]}}" style="width:5em;"/></td>
+    			<td><input id="average{{ loop.index0 }}" name="average{{ loop.index0 }}" type="text" value="{{data[6]}}" style="width:6em;"/></td>
+    			<td><input id="values{{ loop.index0 }}" name="values{{ loop.index0 }}" type="text" value="{{data[7]}}" style="width:6em;"/></td>
+    			<td><input id="mark{{ loop.index0 }}" name="mark{{ loop.index0 }}" type="text" value="{{data[8]}}" style="width:8em;"/></td>
+    			<td><input id="key{{ loop.index0 }}" name="key{{ loop.index0 }}" type="text" value="{{data[9]}}" style="display:none;"/></td>
+			</tr>
+		    {% endfor %}
+    	</tbody>
+	</table>
+	
+	
+	<!--翻页按钮-->
+	<div class="page">
+		<input id="prev_page" type="button" value="上一页"/>
+		<input id="now_page" type="text" readonly/>/<input id="all_page" type="text" readonly/>共<input id="all_row" type="text" readonly/>条
+		<input id="next_page" type="button" value="下一页"/>
+	</div>
+
+
+	<!--操作按钮-->
+	<div class="button">
+		<input id="rows" name="rows" type="text" style="display: none;"/>
+		<input id="delete" type="button" value="删除"/>
+		<input id="save" type="button" value="保存"/>
+		<input id="result" type="button" value="计算"/>
+	</div>
+
+</form>
+
+
+<!--隐藏的详细信息列表-->
+<form id="business_detail" style="display:none;">
+	<table id="business_detail_table">
+		<thead>
+			<tr>
+				<th class="top-left" style="width:15em;">主要业务</th>
+				<th style="width:20em;">事件列表</th>
+				<th style="width:15em;">机器名</th>
+				<th style="width:12em;">报警IP</th>
+				<th style="width:12em;">报警日期</th>
+				<th style="width:5em;">维护级别</th>
+				<th class="top-right" style="width:5em;">总计</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+	<input id="return" type="button" value="返回"/>
+</form>
+
+{% else %}
+
+<h1>没有可以显示的条目!</h1>
+
+{% endif %}
+
+{% endblock %}
